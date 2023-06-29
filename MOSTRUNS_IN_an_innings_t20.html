@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding:0;
+        margin:0;
+        font-family:Verdana,Geneva,Tahoma,san-serif;
+    }
+    table{
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        border-collapse: collapse;
+        width:90%;
+        height:70%;
+        border:1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px,-1px,8px,rgba(0,0,0,0.2);
+    }
+    tr{
+        transition:all .2s ease-in;
+        cursor:pointer;
+    }
+    tr,th{
+        padding:15px;
+        text-align:center;
+        border-bottom:1px ,soild white;      
+    }
+    #header{
+        background-color: lightsalmon;
+        color:white;
+    }
+    h1{
+        font-weigth:600;
+        text-align:center;
+        background-color: #16a085;
+        color:white;
+        padding: 10px 0px
+    }
+    tr:hover{
+        background-color: #f5f5f5;
+        transform:scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px,-1px,8px,rgba(0,0,0,0.2);
+    }
+   
+</style>
+<body>
+    <h1>Records of T20 Matches </h1>
+    <table  HR text-allign="center" border="solid">
+        <tr id="header"    >
+            <td colspan="15"> Highest team score in an innings</td>
+            <tr>
+                <th>Player</th>
+                <th>Runs</th>
+                <th>Mins</th>
+                <th>Balls</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>SR</th>
+                <th>Team</th>
+                <th>Opposition</th>
+                <th>Ground</th>
+                <th>Match Date</th>
+                <th>Scorecard</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AJ Finch</td>
+                <td>172</td>
+                <td>-</td>
+                <td>76</td>
+                <td>16</td>
+                <td>10</td>
+                <td>226.31</td>
+                <td>Australia</td>
+                <td>Zimbabwe</td>
+                <td>Harare</td>
+                <td>3-Jul-18</td>
+                <td>T20I # 683</td>
+              </tr>
+              <tr>
+                <td>Hazratullah Zazai</td>
+                <td>162*</td>
+                <td>-</td>
+                <td>62</td>
+                <td>11</td>
+                <td>16</td>
+                <td>261.29</td>
+                <td>Afghanistan</td>
+                <td>Ireland</td>
+                <td>Dehradun</td>
+                <td>23-Feb-19</td>
+                <td>T20I # 746</td>
+              </tr>
+              <tr>
+                <td>AJ Finch</td>
+                <td>156</td>
+                <td>70</td>
+                <td>63</td>
+                <td>11</td>
+                <td>14</td>
+                <td>247.61</td>
+                <td>Australia</td>
+                <td>England</td>
+                <td>Southampton</td>
+                <td>29-Aug-13</td>
+                <td>T20I # 328</td>
+              </tr>
+              <tr>
+                <td>GJ Maxwell</td>
+                <td>145*</td>
+                <td>-</td>
+                <td>65</td>
+                <td>14</td>
+                <td>9</td>
+                <td>223.07</td>
+                <td>Australia</td>
+                <td>Sri Lanka</td>
+                <td>Pallekele</td>
+                <td>6-Sep-16</td>
+                <td>T20I # 565</td>
+              </tr>
+              <tr>
+                <td>MP O'Dowd</td>
+                <td>133*</td>
+                <td>-</td>
+                <td>73</td>
+                <td>15</td>
+                <td>6</td>
+                <td>182.19</td>
+                <td>Netherlands</td>
+                <td>Malaysia</td>
+                <td>Kirtipur</td>
+                <td>18-Apr-21</td>
+                <td>T20I # 1150</td>
+              </tr>
+              <tr>
+                <td>HG Munsey</td>
+                <td>127*</td>
+                <td>-</td>
+                <td>56</td>
+                <td>5</td>
+                <td>14</td>
+                <td>226.78</td>
+                <td>Scotland</td>
+                <td>Netherlands</td>
+                <td>Dublin (Malahide)</td>
+                <td>16-Sep-19</td>
+                <td>T20I # 884</td>
+              </tr>
+              <tr>
+                <td>Shubman Gill</td>
+                <td>126*</td>
+                <td>99</td>
+                <td>63</td>
+                <td>12</td>
+                <td>7</td>
+                <td>200</td>
+                <td>India</td>
+                <td>New Zealand</td>
+                <td>Ahmedabad</td>
+                <td>1-Feb-23</td>
+                <td>T20I # 1992</td>
+              </tr>
+              <tr>
+                <td>E Lewis</td>
+                <td>125*</td>
+                <td>-</td>
+                <td>62</td>
+                <td>6</td>
+                <td>12</td>
+                <td>201.61</td>
+                <td>West Indies</td>
+                <td>India</td>
+                <td>Kingston</td>
+                <td>9-Jul-17</td>
+                <td>T20I # 617</td>
+              </tr>
+              <tr>
+                <td>Shaheryar Butt</td>
+                <td>125*</td>
+                <td>-</td>
+                <td>50</td>
+                <td>11</td>
+                <td>9</td>
+                <td>250</td>
+                <td>Belgium</td>
+                <td>Czech Rep.</td>
+                <td>Walferdange</td>
+                <td>29-Aug-20</td>
+                <td>T20I # 1090</td>
+              </tr>
+ 
+</table>
+
+</body>
+</html>

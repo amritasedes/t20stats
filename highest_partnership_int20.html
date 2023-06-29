@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding:0;
+        margin:0;
+        font-family:Verdana,Geneva,Tahoma,san-serif;
+    }
+    table{
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        border-collapse: collapse;
+        width:90%;
+        height:70%;
+        border:1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px,-1px,8px,rgba(0,0,0,0.2);
+    }
+    tr{
+        transition:all .2s ease-in;
+        cursor:pointer;
+    }
+    tr,th{
+        padding:15px;
+        text-align:center;
+        border-bottom:1px ,soild white;      
+    }
+    #header{
+        background-color: lightsalmon;
+        color:white;
+    }
+    h1{
+        font-weigth:600;
+        text-align:center;
+        background-color: #16a085;
+        color:white;
+        padding: 10px 0px
+    }
+    tr:hover{
+        background-color: #f5f5f5;
+        transform:scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px,-1px,8px,rgba(0,0,0,0.2);
+    }
+   
+</style>
+<body>
+    <h1>Records of T20 Matches </h1>
+    <table  HR text-allign="center" border="solid">
+        <tr id="header"    >
+            <td colspan="15"> Highest Partnership in an innings</td>
+
+        <tbody>
+            <tr>
+                <th>Partners</th>
+                <th>Runs</th>
+                <th>Wkt</th>
+                <th>Team</th>
+                <th>Opposition</th>
+                <th>Ground</th>
+                <th>Match Date</th>
+                <th>Scorecard</th>
+              </tr>
+              <tr>
+                <td>Usman Ghani, Hazratullah Zazai</td>
+                <td>236</td>
+                <td>1st</td>
+                <td>Afghanistan</td>
+                <td>Ireland</td>
+                <td>Dehradun</td>
+                <td>23-Feb-19</td>
+                <td>T20I # 746</td>
+              </tr>
+              <tr>
+                <td>DJM Short, AJ Finch</td>
+                <td>223</td>
+                <td>1st</td>
+                <td>Australia</td>
+                <td>Zimbabwe</td>
+                <td>Harare</td>
+                <td>3-Jul-18</td>
+                <td>T20I # 683</td>
+              </tr>
+              <tr>
+                <td>Dylan Steyn, S Davizi</td>
+                <td>220</td>
+                <td>1st</td>
+                <td>Czech Rep.</td>
+                <td>Bulgaria</td>
+                <td>Marsa</td>
+                <td>12-May-22</td>
+                <td>T20I # 1529</td>
+              </tr>
+              <tr>
+                <td>BA Pai, L Bruce</td>
+                <td>213*</td>
+                <td>1st</td>
+                <td>Gibraltar</td>
+                <td>Bulgaria</td>
+                <td>Marsa</td>
+                <td>13-May-22</td>
+                <td>T20I # 1531</td>
+              </tr>
+              <tr>
+                <td>Mohammad Rizwan, Babar Azam</td>
+                <td>203*</td>
+                <td>1st</td>
+                <td>Pakistan</td>
+                <td>England</td>
+                <td>Karachi</td>
+                <td>22-Sep-22</td>
+                <td>T20I # 1793</td>
+              </tr>
+              <tr>
+                <td>HG Munsey, KJ Coetzer</td>
+                <td>200</td>
+                <td>1st</td>
+                <td>Scotland</td>
+                <td>Netherlands</td>
+                <td>Dublin (Malahide)</td>
+                <td>16-Sep-19</td>
+                <td>T20I # 884</td>
+              </tr>
+              <tr>
+                <td>Mohammad Rizwan, Babar Azam</td>
+                <td>197</td>
+                <td>1st</td>
+                <td>Pakistan</td>
+                <td>South Africa</td>
+                <td>Centurion</td>
+                <td>14-Apr-21</td>
+                <td>T20I # 1147</td>
+              </tr>
+              <tr>
+                <td>GD Phillips, DP Conway</td>
+                <td>184</td>
+                <td>3rd</td>
+                <td>New Zealand</td>
+                <td>West Indies</td>
+                <td>Mount Maunganui</td>
+                <td>29-Nov-20</td>
+                <td>T20I # 1110</td>
+              </tr>
+              <tr>
+                <td>EJG Morgan, DJ Malan</td>
+                <td>182</td>
+                <td>3rd</td>
+                <td>England</td>
+                <td>New Zealand</td>
+                <td>Napier</td>
+                <td>8-Nov-19</td>
+                <td>T20I # 1008</td>
+              </tr>
+              <tr>
+                <td>T Manders, KS Leverock</td>
+                <td>179</td>
+                <td>1st</td>
+                <td>Bermuda</td>
+                <td>Panama</td>
+                <td>Buenos Aires</td>
+                <td>28-Feb-23</td>
+                <td>T20I # 2009</td>
+              </tr>
+              <tr>
+                <td>SV Samson, DJ Hooda</td>
+                <td>176</td>
+                <td>2nd</td>
+                <td>India</td>
+                <td>Ireland</td>
+                <td>Dublin (Malahide)</td>
+                <td>28-Jun-22</td>
+                <td>T20I # 1586</td>
+              </tr>
+              <tr>
+                <td>DA Miller, Q de Kock</td>
+                <td>174*</td>
+                <td>4th</td>
+                <td>South Africa</td>
+                <td>India</td>
+                <td>Guwahati</td>
+                <td>2-Oct-22</td>
+                <td>T20I # 1803</td>
+              </tr>
+</table>
+
+</body>
+</html>
